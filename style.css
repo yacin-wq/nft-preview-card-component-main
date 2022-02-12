@@ -1,0 +1,245 @@
+/* fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+    /* font text = font-family: 'Outfit', sans-serif;
+    Weights: 300, 400, 600 */
+/* fonts */
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 39.5%;
+    height: 92vh;
+}
+
+.set-up{
+    height: 31em;
+    border-radius: 20px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pic-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Equilibrium{
+    width: 100%;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.view{
+    position: absolute;
+    display: none;
+    transition: all 0.2s ease;
+}
+
+.pic-sec:hover .view{
+    display: block;
+}
+
+
+.pic-sec:hover .Equilibrium{
+    opacity: 50%;
+    filter: brightness(3);
+}
+
+.intro-sec > h1{
+    font-size: 19px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.intro-sec > h1:hover, .creator-sec > h4 >a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+h4{
+    margin: 0;
+    color: hsl(215, 14%, 59%);
+    font-weight: 400;
+}
+
+
+.text-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.intro-sec{
+    display: block;
+}
+
+.price-sec > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 6em;
+}
+
+.price-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.creator-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1em;
+    border-top: 1px solid hsl(215, 25%, 35%);
+}
+
+.avatar{
+    width: 27px;
+    border: 1px solid hsl(0, 0%, 77%);
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.creator-sec > h4{
+    font-weight: 400;
+}
+
+.creator-sec > h4 >a{
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    transition: all 0.2s ease;
+}
+
+
+@media only screen and (max-width: 1320px){       
+    .center-container{
+        padding: 0 38%;
+    }
+}
+
+@media only screen and (max-width: 1210px){
+    .center-container{
+        padding: 0 37%;
+    }
+}
+
+@media only screen and (max-width: 1116px){
+    .center-container{
+        padding: 0 36%;
+    }
+}
+
+@media only screen and (max-width: 1037px){
+    .center-container{
+        padding: 0 35%;
+    }
+}
+
+@media only screen and (max-width: 967px){
+    .center-container{
+        padding: 0 34%;
+    }
+}
+
+@media only screen and (max-width: 907px){
+    .center-container{
+        padding: 0 33%;
+    }
+}
+
+@media only screen and (max-width: 855px){
+    .center-container{
+        padding: 0 32%;
+    }
+}
+
+@media only screen and (max-width: 806px){
+    .center-container{
+        padding: 0 31%;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+    .center-container{
+        padding: 0 30%;
+    }
+}
+
+
+@media only screen and (max-width: 726px){
+    .center-container{
+        padding: 0 29%;
+    }
+}
+
+@media only screen and (max-width: 691px){
+    .center-container{
+        padding: 0 28%;
+    }
+}
+
+@media only screen and (max-width: 660px){
+    .center-container{
+        padding: 0 27%;
+    }
+}
+
+@media only screen and (max-width: 631px){
+    .center-container{
+        padding: 0 26%;
+    }
+}
+
+@media only screen and (max-width: 604px){
+    .center-container{
+        padding: 0 25%;
+    }
+}
+
+@media only screen and (max-width: 579px){
+    .center-container{
+        padding: 0 20%;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .center-container{
+        padding: 0 15%;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    .center-container{
+        padding: 0 10%;
+    }
+}
+
